@@ -1,0 +1,36 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.logo {
+  font-weight: 600;
+  color: var(--fontColor);
+  letter-spacing: 1px;
+}
+.logo span {
+  color: var(--primaryColor);
+}
+.unorderd {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.unorderd > li {
+  list-style: none;
+  margin-left: 50px;
+}
+.unorderd > li > a {
+  text-decoration: none;
+  color: var(--fontColor);
+}
+.unorderd > li > a:hover {
+  color: var(--fontColor-2);
+}
+
+@media only screen and (max-width: 980px) {
+  .unorderd {
+    display: none;
+  }
+}

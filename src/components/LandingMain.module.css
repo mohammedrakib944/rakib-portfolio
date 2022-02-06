@@ -1,0 +1,43 @@
+.landingMain {
+  width: 100%;
+  text-align: center;
+}
+.avatarLogo {
+  width: 150px;
+  height: 150px;
+  margin-top: 80px;
+  border-radius: 50%;
+  border: 5px solid white;
+  filter: hue-rotate(166deg);
+}
+.landingTitle {
+  font-family: "Comforter", cursive;
+  font-size: 3rem;
+  color: var(--fontColor-2);
+  margin-top: 18px;
+}
+.landingTitle2 {
+  color: var(--fontColor);
+  font-size: 3rem;
+  color: white;
+  text-shadow: 4px 4px #35637c;
+  letter-spacing: 15px;
+  font-weight: 300;
+  margin-top: 40px;
+}
+.subTitle {
+  color: var(--fontColor-2);
+  letter-spacing: 2px;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+.myworksbtn {
+  background: #0a2f3a;
+  margin-top: 40px;
+  padding: 8px 30px;
+  border-radius: 39px;
+  letter-spacing: 4px;
+  font-size: 16px;
+  color: var(--primaryColor);
+  border: 1px solid;
+}
